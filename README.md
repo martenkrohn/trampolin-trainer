@@ -38,6 +38,7 @@ Die Anwendung verwendet HTML, CSS und JavaScript-Module ohne Frontend-Framework 
 | `dist/storage.mjs` | IndexedDB, Ersatzspeicher und Schutz vor konkurrierenden Speicheränderungen |
 | `dist/jump-time.mjs` | Eingabevalidierung und Auswertung der Sprungzeitmessungen |
 | `dist/data/catalogue.json` | Integrierter Sprungkatalog und Vorlagen der laufenden App |
+| `dist/logo.png`, `dist/icon-*.png`, `dist/favicon-32.png`, `dist/apple-touch-icon.png` | Vollständiges Logo und für kleine Anzeigen aufbereitete Icons |
 | `dist/sw.js`, `dist/manifest.webmanifest` | Offline-Cache und Installationsmetadaten |
 
 `dist/` enthält die direkt gepflegten und auslieferbaren Quelldateien. Es gibt kein separates Quellverzeichnis, aus dem sie erst erzeugt werden müssen.
@@ -60,4 +61,4 @@ D-Werte dienen der freien Trainingsplanung. Die App ersetzt keine fachliche Anle
 
 ## Hosting
 
-Die öffentliche Anwendung läuft unter **https://trampolintrainer.pages.dev/**. Für statisches Hosting wird ausschließlich `dist/` als Veröffentlichungsverzeichnis verwendet. Die App-Dateien dieses Stands wurden am 18. Oktober 2026 bytegenau mit der Cloudflare-Website abgeglichen.
+Die öffentliche Anwendung läuft unter **https://trampolintrainer.pages.dev/**. Für statisches Hosting wird ausschließlich `dist/` als Veröffentlichungsverzeichnis verwendet. Der ursprüngliche App-Stand wurde am 18. Oktober 2026 bytegenau mit der Cloudflare-Website abgeglichen. Das aktuelle Branding verwendet ein vollständiges Trampolinlogo im Banner und eine vereinfachte Variante für Navigation, Browser-Tab und App-Installation.
