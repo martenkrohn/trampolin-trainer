@@ -1,5 +1,5 @@
-const CACHE = 'trampolin-trainer-v15';
-const ASSETS = ['./', './index.html', './style.css', './app.mjs', './core.mjs', './jump-time.mjs', './catalogue-view.mjs', './storage.mjs', './icon-96.png', './icon-192.png', './icon-512.png', './hero-logo.png', './favicon-32.png', './apple-touch-icon.png', './manifest.webmanifest', './data/catalogue.json'];
+const CACHE = 'trampolin-trainer-v16';
+const ASSETS = ['./', './index.html', './style.css', './app.mjs', './core.mjs', './jump-time.mjs', './catalogue-view.mjs', './storage.mjs', './icon-96.png', './icon-192.png', './icon-512.png', './icon-rounded-192.png', './icon-rounded-512.png', './hero-logo.png', './favicon-32.png', './apple-touch-icon.png', './manifest.webmanifest', './data/catalogue.json'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => Promise.all(ASSETS.map(async path => {
     const response = await fetch(path, { cache: 'reload' });

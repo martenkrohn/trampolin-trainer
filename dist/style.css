@@ -28,4 +28,4 @@ dialog{border:0;border-radius:23px;width:min(590px,calc(100% - 28px));max-height
 
 /* Compact app icon and transparent banner artwork. */
 .brand img{border-radius:11px;flex-shrink:0;object-fit:contain}
-.hero-art img{width:180px;height:180px;max-width:100%;object-fit:contain;background:transparent;border-radius:0;box-shadow:none;box-sizing:border-box;transform:rotate(-6deg)}
+.hero-art img{width:180px;height:auto;max-width:100%;aspect-ratio:1;object-fit:contain;top:50%;left:50%;background:transparent;border-radius:0;box-shadow:none;box-sizing:border-box;transform:translate(-50%,-50%) rotate(-6deg)}
