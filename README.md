@@ -57,8 +57,6 @@ Anschließend [127.0.0.1:8000](http://127.0.0.1:8000) öffnen. Je nach Installat
 
 Trainingsziele, Notizen und Messwerte bleiben im jeweiligen Browser. Es gibt keine Cloud-Speicherung und keine automatische Synchronisierung zwischen Geräten. Eine andere Webadresse oder ein anderer Browser besitzt einen eigenen Datenbestand; für die Übernahme dienen Export und Import.
 
-D-Werte dienen der freien Trainingsplanung. Die App ersetzt keine fachliche Anleitung oder verbindliche Wettkampfprüfung.
-
 ## Hosting
 
-Die öffentliche Anwendung läuft unter **https://trampolintrainer.pages.dev/**. Für statisches Hosting wird ausschließlich `dist/` als Veröffentlichungsverzeichnis verwendet. Der ursprüngliche App-Stand wurde am 18. Oktober 2026 bytegenau mit der Cloudflare-Website abgeglichen. Das aktuelle Branding verwendet ein einheitliches, vereinfachtes Trampolinlogo: im Banner mit transparentem Hintergrund, für Navigation, Browser-Tab und App-Installation auf violettem Grund.
+Die öffentliche Anwendung läuft unter **https://trampolintrainer.pages.dev/**. Für statisches Hosting wird ausschließlich `dist/` als Veröffentlichungsverzeichnis verwendet. Der ursprüngliche App-Stand wurde am 18. Oktober 2026 bytegenau mit der Cloudflare-Website abgeglichen.
