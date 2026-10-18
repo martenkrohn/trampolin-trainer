@@ -1,0 +1,16 @@
+# Nur aktuelle App und Projektbeschreibung versionieren.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/dist/
+
+# Das lokale Archiv wird nicht veröffentlicht.
+/Legacy/
+
+# Keine lokalen Zugangsdaten oder Betriebssystemdateien im App-Verzeichnis.
+**/.env
+**/.env.*
+**/.dev.vars
+**/.DS_Store
+**/Thumbs.db
